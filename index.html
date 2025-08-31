@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do List</title>
+        <link rel="icon" href="favicon.ico">
+
+        <link rel="stylesheet" href="css/main_style.css">        
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+
+    <div class="main_div">
+
+        <!-- edit.png | up-arrow | check | delete-2 | plus_2 | pencil-->
+
+        <div class="main_content_div">
+
+            <div class="top_section_div">
+                <img src="assets/edit.png" alt="Logo" class="logo_image">
+                <div class="image_and_heading">
+                    <h1 id="context_title_heading"><u>To Do List</u></h1>
+                    <p id="date_label">11th December'24</p>
+                </div>
+                
+            </div>  
+
+            <div class="task_list_div" >
+
+                <div class="task_list_heading_div">
+                    <p>Pending Tasks</p>
+                    <button id="pending_toggle" class="untoggled"></button>
+                </div>
+
+                <div class="task_list_container" id="pending_task_list_container">
+                        <!-- <div class="task_list_empty">
+                            <p>
+                                Add a few tasks to begin
+                            </p>
+                        </div> -->
+                </div>
+
+                <div class="task_list_heading_div">
+                    <p>Completed Tasks</p>
+                    <button id="complete_toggle" class="untoggled"></button>
+                </div>
+
+                <div class="task_list_container" id="completed_task_list_container">
+                    
+                    
+                </div>
+
+            </div>
+
+            <div class="bottom_div">
+                <div id="text_input_div"><textarea id="task_input" placeholder="Add your task" autocomplete="off"></textarea></div>
+                <button id="task_add_button"></button>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="js/main_script.js" defer></script>
+</body>
+</html>
