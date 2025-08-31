@@ -37,4 +37,4 @@ favicon.ico       # Site icon
 
 ## License
 
-This project is for personal or
+This project is for personal or educational use.
